@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.logo {
+.header__logo {
   width: 100%;
 }
-.link {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -31,7 +31,7 @@
   display: inline-block;
   flex-grow: 1
 }
-.task-wrapper {
+.task__wrapper {
   display: flex;
 }
 .list {
@@ -67,7 +67,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.input-text{
+.input_text{
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -80,7 +80,7 @@
   color: #888;
 }
 
-.input-text:focus {
+.input_text:focus {
   color: #333;
 }
 
@@ -89,10 +89,10 @@
   display: block;
   margin: 0 0 20px;
 }
-#new-task{
+.input_task_add{
   width: 318px;
 }
-.addfix:hover {
+.btn_add:hover {
   color: #0fc57c;
 }
 
@@ -116,37 +116,37 @@
   font-size: 18px;
   width: 226px;
 }
-.item .input-text {
+.item .input_text {
   width: 226px
 }
-.deletefix:hover {
+.btn_delete:hover {
   color: #cf2323;
 }
-.btn-img {
+.img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.btn-img:hover {
+.img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.list-finish .label {
+.list_finish .label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
-.item .input-text {
+.item .input_text {
   display:none
 }
 
-.edit-item .input-text {
+.item_edit .input_text {
   display:inline-block;
   width:224px
 }
 
-.edit-item .label {
+.item_edit .label {
   display:none;
 }
